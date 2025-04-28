@@ -48,6 +48,8 @@ Este projeto implementa um **ohmímetro digital** utilizando o **Raspberry Pi Pi
 
 Se a resistência não se enquadrar em nenhuma faixa, são exibidos traços (`---`).
 
+Esses valores foram considerados de acordo com uma faixa maior de variação de 5%, devido a sensibilidade do resistor conhecido que foi utilizado, no vídeo explico afundo sobre
+
 ## Observações importantes
 - **Ajuste do R_conhecido:** Certifique-se que o resistor conhecido utilizado é de 22kΩ ou ajuste o valor de `R_conhecido` no código.
 - **Fonte de alimentação estável:** Flutuações na tensão de referência (`ADC_VREF`) podem afetar a precisão.
